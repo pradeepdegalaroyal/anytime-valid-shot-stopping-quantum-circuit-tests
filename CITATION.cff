@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Anytime-valid shot stopping for pass/fail tests of noisy quantum circuits"
+type: software
+authors:
+  - family-names: Degala
+    given-names: Chenchupradeep
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/pradeepdegalaroyal/anytime-valid-shot-stopping-quantum-circuit-tests"
+keywords:
+  - quantum software testing
+  - sequential testing
+  - shot budget
+  - noisy quantum circuits

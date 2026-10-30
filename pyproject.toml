@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shotstop"
+version = "0.1.0"
+description = "Anytime-valid shot stopping for pass/fail tests of noisy quantum circuits"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Degala Chenchupradeep" }]
+dependencies = [
+    "qiskit==2.4.2",
+    "qiskit-aer==0.17.2",
+    "numpy==2.2.6",
+    "scipy==1.17.1",
+    "pandas==2.3.3",
+    "matplotlib==3.11.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
