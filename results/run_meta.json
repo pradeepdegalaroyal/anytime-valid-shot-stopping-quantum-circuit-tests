@@ -1,0 +1,12 @@
+{
+  "quick": false,
+  "runtime_seconds": 155.2,
+  "tau": 0.1,
+  "alpha": 0.05,
+  "batch": 500,
+  "steps": 40,
+  "reps": 100,
+  "seeds": 5,
+  "qubits": 4,
+  "n_instances": 900
+}
